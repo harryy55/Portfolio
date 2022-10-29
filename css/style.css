@@ -349,6 +349,13 @@ a:focus {
   margin: 0;
   height: 25px;
   font-size: 24px;
+  color: #8b8a8a;
+}
+
+@media (max-width: 365px) {
+  .header h2{
+    font-size: 19px;
+  }
 }
 
 .header .typed-text {
@@ -466,9 +473,7 @@ a:focus {
   background: var(--font-color);
 }
 
-.about .col-lg-7 p {
-  font-style: italic;
-}
+
 .about .skills {
   padding-top: 15px;
 }
